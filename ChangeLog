@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: burnett  Tue Mar  6 12:16:33 PST 2001
+DetDisplay/cmt setup.bat
+
+Modified Files:
+	setup.bat 
+Log Message:
+
+add persist option to gui.
+    *
+------------------------------------------------------------
 User: tlindner  Mon Feb  5 16:12:54 PST 2001
 DetDisplay/cmt requirements
 
