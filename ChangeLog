@@ -1,0 +1,30 @@
+------------------------------------------------------------
+User: burnett  Sun Jan 21 20:35:09 PST 2001
+DetDisplay - Imported sources
+
+Log Message:
+Initial version of a simple package that implements an Algorithm that constructs and displays the full GLAST geometry.
+
+Status:
+
+Vendor Tag:	GLAST
+Release Tags:	v1
+		
+N DetDisplay/.cvsignore
+N DetDisplay/cmt/cleanup.csh
+N DetDisplay/cmt/cleanup.sh
+N DetDisplay/cmt/Makefile
+N DetDisplay/cmt/requirements
+N DetDisplay/cmt/setup.bat
+N DetDisplay/cmt/setup.csh
+N DetDisplay/cmt/setup.sh
+N DetDisplay/doc/.cvsignore
+N DetDisplay/src/DetDisplay.cxx
+N DetDisplay/src/DetDisplay.h
+N DetDisplay/src/mainpage.h
+N DetDisplay/src/Dll/DetDisplay_dll.cxx
+N DetDisplay/src/Dll/DetDisplay_load.cxx
+
+No conflicts created by this import
+
+    *
