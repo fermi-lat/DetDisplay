@@ -1,6 +1,6 @@
 /** @file DisplayGeometry.h 
      @brief Declatation of class  DisplayGeometry
-  $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/DisplayGeometry.h,v 1.1 2003/07/04 22:08:31 burnett Exp $
+  $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/DisplayGeometry.h,v 1.2 2003/07/07 15:56:33 burnett Exp $
 */
 
 #ifndef DisplayGeometry_h
@@ -93,7 +93,7 @@ private:
 
     // this accounts for total volume associated with each material: index by material name,
     // save count and total volume
-    typedef std::map<std::string, std::pair<int,double> > MaterialSummary;
+
     MaterialSummary m_matSum;
     /// choice mode for traversing geometry
     std::string m_mode;
