@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: burnett  Sun Jul  6 08:49:00 PDT 2003
+DetDisplay/src
+
+Removed Files:
+	DetDisplay.cxx DetDisplay.h MaterialDisplay.cxx 
+	MaterialDisplay.h MaterialList.cxx MaterialList.h 
+Log Message:
+really remove non-implemented stuff
+    *
+------------------------------------------------------------
 User: burnett  Fri Jul  4 15:08:31 PDT 2003
 DetDisplay/src/test
 
