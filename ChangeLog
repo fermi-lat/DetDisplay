@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: lsrea  Thu Jul 10 10:41:33 PDT 2003
+DetDisplay/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+prepare for tag v3r1p1
+Remove local SiliconPlaneGeometry
+Replace with standard GlastDetSvc, TkrGeometrySvc
+    *
+------------------------------------------------------------
 User: burnett  Mon Jul  7 11:18:23 PDT 2003
 DetDisplay/src
 
