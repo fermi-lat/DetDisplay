@@ -1,6 +1,6 @@
 /** @file MCdisplay.cxx 
      @brief Declatation, definition of class MCdisplay
-  $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/MCdisplay.cxx,v 1.1 2003/07/04 22:08:31 burnett Exp $
+  $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/MCdisplay.cxx,v 1.2 2003/10/20 22:08:48 golpa Exp $
 */
 
 // includes
@@ -50,7 +50,7 @@
 * @class MCdisplay
 *
 * @brief  A Tool that create a display of  Monte Carlo items on the TDS 
-* $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/MCdisplay.cxx,v 1.1 2003/07/04 22:08:31 burnett Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/MCdisplay.cxx,v 1.2 2003/10/20 22:08:48 golpa Exp $
 */
 class MCdisplay : public AlgTool, 
     virtual public IIncidentListener, 
@@ -347,6 +347,10 @@ void MCdisplay::endEvent()
 
                 Event::McParticle::StdHepId hepid= (*part)->particleProperty();
                 ParticleProperty* ppty = m_ppsvc->findByStdHepID( hepid );
+                if (ppty == 0) {
+                  log << MSG::DEBUG << "hepid = " << hepid << endreq;
+                  continue;
+                }
                 std::string name = ppty->particle(); 
                 PointList line; 
                 line.push_back((*part)->initialPosition());
