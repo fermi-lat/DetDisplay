@@ -1,5 +1,19 @@
 ------------------------------------------------------------
 User: burnett  Fri Jul  4 15:08:31 PDT 2003
+DetDisplay/src
+
+Modified Files:
+	mainpage.h 
+Added Files:
+	CompositeMedium.cxx CompositeMedium.h DetectorDisplay.cxx 
+	DisplayGeometry.cxx DisplayGeometry.h MCdisplay.cxx Medium.cxx 
+	Medium.h SiliconPlaneGeometry.cxx SiliconPlaneGeometry.h 
+	StripDisplay.cxx World.cxx World.h 
+Log Message:
+Add MC displays, update detector display to use geomety obtained from detModel.
+    *
+------------------------------------------------------------
+User: burnett  Fri Jul  4 15:08:31 PDT 2003
 DetDisplay/src/Dll
 
 Modified Files:
