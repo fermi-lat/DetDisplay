@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Mar 24 17:29:18 PST 2004
+DetDisplay/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+check for invalid hepid and output debug msg
+    *
+------------------------------------------------------------
 User: heather  Wed Mar 24 17:29:11 PST 2004
 DetDisplay/cmt
 
