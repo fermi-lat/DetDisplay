@@ -1,7 +1,7 @@
 /** @file DetectorDisplay.cxx
 @brief  Declare, implement class DetectorDisplay
 
-* $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/DetectorDisplay.cxx,v 1.2 2003/07/06 16:28:25 burnett Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/DetectorDisplay.cxx,v 1.3 2003/07/07 15:56:33 burnett Exp $
 */
 
 // includes
@@ -23,12 +23,13 @@
 #include <sstream>
 namespace {
     gui::DisplayControl* pdisplay;
+    const int nLevels = 7;
 }
 /** 
 * @class DetectorDisplay
 *
 * @brief  A Tool that sets up the detector display 
-* $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/DetectorDisplay.cxx,v 1.2 2003/07/06 16:28:25 burnett Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/DetectorDisplay.cxx,v 1.3 2003/07/07 15:56:33 burnett Exp $
 */
 class DetectorDisplay : public AlgTool, virtual public IGuiTool 
 {
@@ -108,7 +109,19 @@ StatusCode DetectorDisplay::initialize (gui::GuiMgr* guiMgr)
     gui::SubMenu& detmenu= guiMgr->display().menu().subMenu("Detector");
     gui::DisplayRep * worldRep= world->detectorViewer();
     worldRep->update();  // necessary to finish building nested reps
-    for(int i =0; i< m_showLevel; ++i) worldRep->show(false); 
+
+    // test for topLevel=LAT and presence of globalOffset_dz
+    // this means that there's an extra level in the geometry, so
+    // we bump the level counter  
+
+    double temp;
+    StatusCode sc = gsv->getNumericConstByName("globalOffset_dz", &temp);
+    int thisLevel = 0;
+    if (sc.isSuccess() && gsv->getTopVolume()=="LAT") thisLevel++;
+    thisLevel += m_showLevel;
+    if (thisLevel>nLevels) thisLevel = nLevels;
+
+    for(int i =0; i< thisLevel; ++i) worldRep->show(false); 
 
     pdisplay->useMenu(&detmenu);
     pdisplay->add(worldRep, "detector", -1);
@@ -127,7 +140,9 @@ StatusCode DetectorDisplay::initialize (gui::GuiMgr* guiMgr)
         int m_level;
     };
     //------------------------------------------------
-    for( int level=0; level<7; ++level){
+
+
+    for( int level=0; level<nLevels; ++level){
         std::stringstream label; label << "detail level " << level;
         detmenu.addButton( label.str(),  new ShowDetector(worldRep, level)); 
     }

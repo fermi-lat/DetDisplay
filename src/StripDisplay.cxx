@@ -2,7 +2,7 @@
 * @file StripDisplay.cxx
 * @brief Declaration and definition of the algorithm StripDisplay.
 *
-*  $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/StripDisplay.cxx,v 1.2 2003/07/10 17:41:33 lsrea Exp $
+*  $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/StripDisplay.cxx,v 1.3 2003/07/21 00:00:26 burnett Exp $
 */
 // Original Author: T. Burnett
 
@@ -161,7 +161,9 @@ public:
                 // also draw a line perpendicular to the strips, to show the pitch
                 HepVector3D pitchvec(0.49*_tkrGeoSvc->siStripPitch(), 0,0);
                 pitchvec.transform(T_plane);
-                moveTo(from+pitchvec); lineTo(from-pitchvec);
+                HepPoint3D leftEnd(from-pitchvec), rightEnd(from+pitchvec);
+                moveTo(leftEnd); lineTo(rightEnd);
+                std::cout << "News from StripRep: leftEnd = " << leftEnd << std::endl;
             }
         }
 
