@@ -1,7 +1,7 @@
 /** @file Medium.h
      @brief  declaration of class Medium
 
-   $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/Medium.h,v 1.1 2003/07/04 22:08:31 burnett Exp $
+   $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/Medium.h,v 1.2 2003/07/07 15:56:33 burnett Exp $
 */
 
 #ifndef MEDIUM_H
@@ -11,6 +11,7 @@
 
 namespace gui {class DisplayRep; }
 class Shape;
+#include <string>
 
 /**
 */
