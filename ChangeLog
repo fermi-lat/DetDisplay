@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Sun Jul 20 17:00:26 PDT 2003
+DetDisplay/src
+
+Modified Files:
+	StripDisplay.cxx 
+Log Message:
+make independent of the geometry package
+    *
+------------------------------------------------------------
 User: burnett  Sun Jul 20 09:39:51 PDT 2003
 DetDisplay/doc
 
