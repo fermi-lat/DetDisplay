@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: tlindner  Mon Feb  5 16:08:44 PST 2001
+DetDisplay/src DetDisplay.cxx
+
+Modified Files:
+	DetDisplay.cxx 
+Log Message:
+use IGuiSvc
+    *
+------------------------------------------------------------
 User: burnett  Sun Jan 21 20:35:09 PST 2001
 DetDisplay - Imported sources
 
