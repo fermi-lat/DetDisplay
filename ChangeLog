@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: burnett  Fri Jul  4 15:08:31 PDT 2003
+DetDisplay/src/test
+
+Modified Files:
+	jobOptions.txt 
+Removed Files:
+	GuiMain.cxx 
+Log Message:
+Add MC displays, update detector display to use geomety obtained from detModel.
+    *
+------------------------------------------------------------
+User: burnett  Fri Jul  4 15:08:31 PDT 2003
 DetDisplay/src
 
 Modified Files:
