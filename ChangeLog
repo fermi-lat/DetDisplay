@@ -1,5 +1,17 @@
 ------------------------------------------------------------
 User: burnett  Tue Mar  6 17:11:51 PST 2001
+DetDisplay/src MaterialDisplay.cxx MaterialDisplay.h MaterialList.cxx MaterialList.h DetDisplay.cxx
+
+Modified Files:
+	DetDisplay.cxx 
+Added Files:
+	MaterialDisplay.cxx MaterialDisplay.h MaterialList.cxx 
+	MaterialList.h 
+Log Message:
+restore material display option
+    *
+------------------------------------------------------------
+User: burnett  Tue Mar  6 17:11:51 PST 2001
 DetDisplay/cmt requirements
 
 Modified Files:
