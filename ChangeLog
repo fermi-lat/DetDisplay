@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: burnett  Thu Apr 19 13:35:34 PDT 2001
+DetDisplay/cmt requirements setup.bat
+
+Modified Files:
+	requirements setup.bat 
+Log Message:
+update for Gaudi v7
+
+    *
+------------------------------------------------------------
 User: burnett  Thu Mar  8 09:24:08 PST 2001
 DetDisplay/src/test GuiMain.cxx jobOptions.txt
 
