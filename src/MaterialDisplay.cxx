@@ -1,6 +1,6 @@
 // MaterialDisplay.cxx: implementation of the MaterialDisplay class.
 //
-// $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/MaterialDisplay.cxx,v 1.2 2001/04/21 22:58:32 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/MaterialDisplay.cxx,v 1.1 2003/07/07 15:56:33 burnett Exp $
 //  Author: T. Burnett
 //////////////////////////////////////////////////////////////////////
 
@@ -75,7 +75,7 @@ void MaterialDisplay::Rep::doit(const Medium* med)
 {
     //  get the associated volume, check its type
     const Shape& vol = med->volume();
-    const type_info& t = typeid(vol);
+    const std::type_info& t = typeid(vol);
     if( t==typeid(Box) )    append(BoxRep(vol ));
     else if( t==typeid(Tube) )    append(TubeRep(vol ));
     else {
