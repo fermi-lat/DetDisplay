@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: lsrea  Thu Jul 10 10:41:34 PDT 2003
+DetDisplay/src
+
+Modified Files:
+	StripDisplay.cxx 
+Removed Files:
+	SiliconPlaneGeometry.cxx SiliconPlaneGeometry.h 
+Log Message:
+prepare for tag v3r1p1
+Remove local SiliconPlaneGeometry
+Replace with standard GlastDetSvc, TkrGeometrySvc
+    *
+------------------------------------------------------------
 User: lsrea  Thu Jul 10 10:41:33 PDT 2003
 DetDisplay/doc
 
