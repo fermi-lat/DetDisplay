@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: tlindner  Mon Feb  5 16:12:54 PST 2001
+DetDisplay/cmt requirements
+
+Modified Files:
+	requirements 
+Log Message:
+use library linkopts to get around redhat 6.2 bug
+    *
+------------------------------------------------------------
 User: tlindner  Mon Feb  5 16:08:44 PST 2001
 DetDisplay/src DetDisplay.cxx
 
