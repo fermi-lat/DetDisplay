@@ -1,6 +1,6 @@
 /** @file DisplayGeometry.cxx
      @brief  implementation of class DisplayGeometry
-  $Header: /nfs/slac/g/glast/ground/cvs/Recon/src/MCdisplay.cxx,v 1.2 2003/07/02 15:39:56 burnett Exp $
+  $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/DisplayGeometry.cxx,v 1.1 2003/07/04 22:08:31 burnett Exp $
 */
 #include "DisplayGeometry.h"
 
@@ -42,8 +42,6 @@ public:
         // this winds up hiding all but top level box
         v.hide(); 
     }
-    // don't pass this on: will do detectors separately
-    void generateResponse(){}
 };
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
