@@ -1,10 +1,11 @@
 /** @file release.notes
  * @brief package DetDisplay
-   $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/doc/release.notes,v 1.2 2003/07/04 22:08:31 burnett Exp $
+   $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/doc/release.notes,v 1.3 2003/07/06 16:28:25 burnett Exp $
 
 @verbatim
  * package manager:T.Burnett
 
+ 07-jul-2003: v3r1   THB display by material enabled (attempt to pick detail level not quite right)
  05-jul-2003: v3r0p1 THB unix fixes
  04-jul-2003: v3     THB Move MC display reps (pos hits, integrating hits, tracks) from Recon and G4Generator
  08-may-2001: convert to gui structure, tag as v2r2
