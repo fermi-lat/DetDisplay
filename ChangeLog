@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: burnett  Tue May  8 11:58:44 PDT 2001
+DetDisplay/src DetDisplay.cxx
+
+Modified Files:
+	DetDisplay.cxx 
+Log Message:
+fix for new service.
+
+    *
+------------------------------------------------------------
 User: burnett  Tue May  8 10:41:31 PDT 2001
 DetDisplay/doc release.notes
 
