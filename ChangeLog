@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Sat Apr 21 15:58:32 PDT 2001
+DetDisplay/src MaterialDisplay.cxx
+
+Modified Files:
+	MaterialDisplay.cxx 
+Log Message:
+update for Gaudi7, improve interface
+    *
+------------------------------------------------------------
+User: burnett  Sat Apr 21 15:58:32 PDT 2001
 DetDisplay/cmt requirements setup.bat
 
 Modified Files:
