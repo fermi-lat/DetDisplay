@@ -1,6 +1,8 @@
-// $Id: CompositeMedium.cxx,v 1.1.1.1 2002/03/04 03:58:58 burnett Exp $
-// File: CompositeMedium.cxx
+/** @file CompositeMedium.h
+     @brief  implementation of class CompositeMedium
 
+     $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/Medium.h,v 1.1 2003/07/04 22:08:31 burnett Exp $
+*/
 
 #include "CompositeMedium.h"
 
@@ -9,15 +11,9 @@
 #include "geometry/Shape.h"
 #include "geometry/Volume.h"
 #include <algorithm>
-//////////////////////////////////////////////////////////////////////////////
-//              constructors
 
-CompositeMedium::CompositeMedium(Medium * prnt, float size)
-: Medium(prnt, size)
-{}
-
-CompositeMedium::CompositeMedium(Medium* prnt, Shape* vol, const char* matName, Detector* det)
-: Medium(prnt, vol, matName, det)
+CompositeMedium::CompositeMedium(Medium* prnt, Shape* vol, const char* matName)
+: Medium(prnt, vol, matName)
 {}
 
 CompositeMedium::~CompositeMedium()

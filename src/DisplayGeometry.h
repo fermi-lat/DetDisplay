@@ -1,6 +1,6 @@
 /** @file DisplayGeometry.h 
      @brief Declatation of class  DisplayGeometry
-  $Header: /nfs/slac/g/glast/ground/cvs/Recon/src/MCdisplay.cxx,v 1.2 2003/07/02 15:39:56 burnett Exp $
+  $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/DisplayGeometry.h,v 1.1 2003/07/04 22:08:31 burnett Exp $
 */
 
 #ifndef DisplayGeometry_h
@@ -48,6 +48,9 @@ public:
 
     /// current ID
     idents::VolumeIdentifier getId()const; 
+
+    typedef std::map<std::string, std::pair<int,double> > MaterialSummary;
+    const MaterialSummary & materials()const{ return m_matSum;}
 
 private:
     typedef std::vector<std::string> StringVector;
