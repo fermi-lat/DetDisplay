@@ -1,4 +1,12 @@
 ------------------------------------------------------------
+User: burnett  Thu Mar  8 09:23:22 PST 2001
+DetDisplay/src/test - New directory
+
+Log Message:
+Directory /nfs/slac/g/glast/ground/cvs/DetDisplay/src/test added to the repository
+
+    *
+------------------------------------------------------------
 User: burnett  Tue Mar  6 17:11:51 PST 2001
 DetDisplay/src MaterialDisplay.cxx MaterialDisplay.h MaterialList.cxx MaterialList.h DetDisplay.cxx
 
