@@ -1,11 +1,11 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/Recon/src/DetectorDisplay.cxx,v 1.3 2003/02/28 20:32:21 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/DetectorDisplay.cxx,v 1.1 2003/07/04 22:08:31 burnett Exp $
 
 
 // includes
 #include "GaudiKernel/MsgStream.h"
 #include "GaudiKernel/AlgTool.h"
 #include "GaudiKernel/ToolFactory.h"
-#include "gaudiKernel/Property.h"
+#include "GaudiKernel/Property.h"
 
 
 #include "GuiSvc/IGuiTool.h"
@@ -25,7 +25,7 @@
 * @class DetectorDisplay
 *
 * @brief  A Tool that sets up the detector display 
-* $Header: /nfs/slac/g/glast/ground/cvs/Recon/src/DetectorDisplay.cxx,v 1.3 2003/02/28 20:32:21 burnett Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/DetectorDisplay.cxx,v 1.1 2003/07/04 22:08:31 burnett Exp $
 */
 class DetectorDisplay : public AlgTool, virtual public IGuiTool 
 {
