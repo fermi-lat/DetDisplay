@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Mar 24 17:29:11 PST 2004
+DetDisplay/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+check for invalid hepid and output debug msg
+    *
+------------------------------------------------------------
 User: golpa  Mon Oct 20 15:08:48 PDT 2003
 DetDisplay/src
 
