@@ -1,5 +1,17 @@
 ------------------------------------------------------------
 User: lsrea  Sat Jul 26 15:03:44 PDT 2003
+DetDisplay/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+prepare for tag v3r1p4
+DetectorDisplay: adjust for possible extra level in geometry
+StripDisplay: a little recoding; compiler seems to be asking for it
+
+    *
+------------------------------------------------------------
+User: lsrea  Sat Jul 26 15:03:44 PDT 2003
 DetDisplay/cmt
 
 Modified Files:
