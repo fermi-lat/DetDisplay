@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Tue May  8 10:41:30 PDT 2001
+DetDisplay/cmt requirements
+
+Modified Files:
+	requirements 
+Log Message:
+update for gui
+    *
+------------------------------------------------------------
 User: burnett  Sat Apr 21 15:58:32 PDT 2001
 DetDisplay/src MaterialDisplay.cxx
 
