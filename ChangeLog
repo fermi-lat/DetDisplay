@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: burnett  Fri Jul  4 15:08:31 PDT 2003
+DetDisplay/cmt
+
+Modified Files:
+	requirements 
+Added Files:
+	.cvsignore 
+Removed Files:
+	cleanup.csh cleanup.sh setup.csh setup.sh 
+Log Message:
+Add MC displays, update detector display to use geomety obtained from detModel.
+    *
+------------------------------------------------------------
 TAG activity
 User: burnett  Tue May  8 12:02:57 2001
 Tag name: v2r2
