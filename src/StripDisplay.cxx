@@ -2,7 +2,7 @@
 * @file StripDisplay.cxx
 * @brief Declaration and definition of the algorithm StripDisplay.
 *
-*  $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/StripDisplay.cxx,v 1.3 2003/07/21 00:00:26 burnett Exp $
+*  $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/StripDisplay.cxx,v 1.4 2003/07/26 22:03:45 lsrea Exp $
 */
 // Original Author: T. Burnett
 
@@ -163,7 +163,6 @@ public:
                 pitchvec.transform(T_plane);
                 HepPoint3D leftEnd(from-pitchvec), rightEnd(from+pitchvec);
                 moveTo(leftEnd); lineTo(rightEnd);
-                std::cout << "News from StripRep: leftEnd = " << leftEnd << std::endl;
             }
         }
 
