@@ -1,4 +1,12 @@
 ------------------------------------------------------------
+TAG activity
+User: burnett  Tue May  8 12:02:57 2001
+Tag name: v2r2
+Tag operation: mov
+Repository: /nfs/slac/g/glast/ground/cvs/DetDisplay/src
+File(s) and revision(s): DetDisplay.cxx
+    *
+------------------------------------------------------------
 User: burnett  Tue May  8 11:58:44 PDT 2001
 DetDisplay/src DetDisplay.cxx
 
