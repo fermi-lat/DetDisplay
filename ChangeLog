@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: burnett  Mon Jul  7 08:56:34 PDT 2003
+DetDisplay/src
+
+Modified Files:
+	CompositeMedium.cxx CompositeMedium.h DetectorDisplay.cxx 
+	DisplayGeometry.cxx DisplayGeometry.h Medium.cxx Medium.h 
+	World.cxx World.h 
+Added Files:
+	MaterialDisplay.cxx MaterialDisplay.h 
+Log Message:
+Further refactoring; restore possibility to display objects with given material
+    *
+------------------------------------------------------------
 User: burnett  Sun Jul  6 09:28:25 PDT 2003
 DetDisplay/src
 
