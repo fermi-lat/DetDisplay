@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Sat Jul 26 15:15:01 PDT 2003
+DetDisplay/src
+
+Modified Files:
+	StripDisplay.cxx 
+Log Message:
+remove extraneous printout
+
+    *
+------------------------------------------------------------
 User: lsrea  Sat Jul 26 15:03:45 PDT 2003
 DetDisplay/src
 
