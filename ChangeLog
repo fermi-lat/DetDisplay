@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Fri Feb 16 12:10:35 PST 2007
+DetDisplay/src
+
+Modified Files:
+	MCdisplay.cxx 
+Log Message:
+Modifications for the new form of McTrajectory
+    *
+------------------------------------------------------------
 TAG
 Tag name: v3r1p7, operation: add
 Package: DetDisplay
