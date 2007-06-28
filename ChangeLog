@@ -1,5 +1,17 @@
 ------------------------------------------------------------
 User: lsrea  Thu Jun 28 12:13:19 PDT 2007
+DetDisplay/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+Kludge to fix crash when trying to draw a sphere.
+For now, just replace with a little box, and suppress sub-volumes
+Should be revisited!
+
+    *
+------------------------------------------------------------
+User: lsrea  Thu Jun 28 12:13:19 PDT 2007
 DetDisplay/cmt
 
 Modified Files:
