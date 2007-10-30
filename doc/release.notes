@@ -1,9 +1,10 @@
 /** @file release.notes
  * @brief package DetDisplay
-   $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/doc/release.notes,v 1.11 2007/03/12 22:46:51 usher Exp $
+   $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/doc/release.notes,v 1.12 2007/06/28 19:13:19 lsrea Exp $
 
 @verbatim
  * package manager:T.Burnett
+ 30-Oct-2007  v3r3   HMK use gr_app
  28-Jun-2007  v3r2p1 LSR Kludge to get around drawing spheres... 
                            I tried to implement this, but didn't quite make it.
  12-Mar-2007  v3r2   TU  modify scheme for displaying McParticles/McTrajectory's
