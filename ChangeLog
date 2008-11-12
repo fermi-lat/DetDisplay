@@ -1,4 +1,22 @@
 ------------------------------------------------------------
+User: ecephas  Wed Nov 12 09:47:14 PST 2008
+GlastRelease-scons/DetDisplay
+
+Modified Files:
+	SConscript 
+Log Message:
+Changed
+	DetDisplay = libEnv.SharedLibrary('DetDisplay', listFiles(['src/*.cxx','src/Dll/*.cxx']))
+to
+	DetDisplay = libEnv.SharedLibrary('DetDisplay', listFiles(['src/*.cxx','src/Dll/*.cxx']))
+---
+Changed
+	progEnv.Tool('registerObjects', package = 'DetDisplay', libraries = [DetDisplay], includes = ['DetDisplay/IDetDisplay.h'])
+to
+	 progEnv.Tool('registerObjects', package = 'DetDisplay', libraries = [DetDisplay])
+
+    *
+------------------------------------------------------------
 User: ecephas  Fri Aug 15 14:42:34 PDT 2008
 GlastRelease-scons/DetDisplay
 
