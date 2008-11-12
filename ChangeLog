@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: ecephas  Wed Nov 12 09:51:30 PST 2008
+GlastRelease-scons/DetDisplay
+
+Modified Files:
+	DetDisplayLib.py 
+Log Message:
+Added env.Tool('TkrUtilLib').
+    *
+------------------------------------------------------------
 User: ecephas  Wed Nov 12 09:47:14 PST 2008
 GlastRelease-scons/DetDisplay
 
