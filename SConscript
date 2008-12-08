@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/DetDisplay/SConscript,v 1.1 2008/08/15 21:22:40 ecephas Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/DetDisplay/SConscript,v 1.2 2008/11/12 17:47:14 ecephas Exp $
 # Authors: T. Burnett <tburnett@u.washington.edu>
 # Version: DetDisplay-03-03-00
 Import('baseEnv')
@@ -24,3 +24,6 @@ if baseEnv['PLATFORM'] == 'win32':
 	progEnv.AppendUnique(LINKFLAGS=['/subsystem:windows'])  #from macro guiapp_linkopts in ../gui/cmt/requirements
 
 progEnv.Tool('registerObjects', package = 'DetDisplay', libraries = [DetDisplay])
+
+
+
