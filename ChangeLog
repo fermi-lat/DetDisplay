@@ -2,6 +2,16 @@
 TAG
 Tag name: DetDisplay-03-03-00, operation: add
 Package: DetDisplay
+User: ecephas  Mon Dec  8 16:08:25 2008
+Files:
+  DetDisplay/DetDisplayLib.py  1.2
+  DetDisplay/DetDisplayLib.py  1.2
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: DetDisplay-03-03-00, operation: add
+Package: DetDisplay
 User: ecephas  Mon Dec  8 13:39:53 2008
 Files:
   DetDisplay/SConscript  1.3
