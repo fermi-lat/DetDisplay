@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Jul  1 08:54:51 PDT 2009
+DetDisplay/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+add EOH to release.notes
+    *
+------------------------------------------------------------
 TAG
 Tag name: DetDisplay-03-03-00, operation: mov
 Package: DetDisplay
