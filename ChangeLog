@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Nov  6 15:31:33 PST 2009
+GlastRelease-scons/DetDisplay
+
+Modified Files:
+	.cvsignore 
+Log Message:
+update for SCons
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Nov  6 15:31:02 PST 2009
 GlastRelease-scons/DetDisplay
 
