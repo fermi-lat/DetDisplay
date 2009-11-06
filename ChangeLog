@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Nov  6 15:31:02 PST 2009
+GlastRelease-scons/DetDisplay
+
+Modified Files:
+	DetDisplayLib.py SConscript 
+Log Message:
+changes for SCons
+
+    *
+------------------------------------------------------------
 User: heather  Wed Jul  1 08:54:51 PDT 2009
 DetDisplay/doc
 
