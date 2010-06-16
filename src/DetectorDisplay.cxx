@@ -1,7 +1,7 @@
 /** @file DetectorDisplay.cxx
 @brief  Declare, implement class DetectorDisplay
 
-* $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/DetectorDisplay.cxx,v 1.4 2003/07/26 22:03:45 lsrea Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/DetectorDisplay.cxx,v 1.5 2003/10/20 22:08:48 golpa Exp $
 */
 
 // includes
@@ -23,13 +23,13 @@
 #include <sstream>
 namespace {
     gui::DisplayControl* pdisplay;
-    const int nLevels = 7;
+    const int nLevels = 9;
 }
 /** 
 * @class DetectorDisplay
 *
 * @brief  A Tool that sets up the detector display 
-* $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/DetectorDisplay.cxx,v 1.4 2003/07/26 22:03:45 lsrea Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/DetectorDisplay.cxx,v 1.5 2003/10/20 22:08:48 golpa Exp $
 */
 class DetectorDisplay : public AlgTool, virtual public IGuiTool 
 {
