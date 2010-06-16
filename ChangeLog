@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: lsrea  Tue Jun 15 18:33:19 PDT 2010
+DetDisplay/src
+
+Modified Files:
+	DetectorDisplay.cxx 
+Log Message:
+Change the maximum detail level from 7 to 9, to make debugging of geometry easier
+Default level is still 2
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: DetDisplay-03-03-02, operation: add
 Package: DetDisplay
