@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: heather  Fri Sep 17 20:36:56 PDT 2010
+DetDisplay/src
+
+Modified Files:
+      Tag: GlastReleasev18r6p1
+	DetectorDisplay.cxx MCdisplay.cxx StripDisplay.cxx 
+Log Message:
+Gaudi v21r7 updates
+    *
+------------------------------------------------------------
+User: heather  Fri Sep 17 20:36:56 PDT 2010
 DetDisplay/doc
 
 Modified Files:
