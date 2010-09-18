@@ -2,7 +2,7 @@
 * @file StripDisplay.cxx
 * @brief Declaration and definition of the algorithm StripDisplay.
 *
-*  $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/StripDisplay.cxx,v 1.4 2003/07/26 22:03:45 lsrea Exp $
+*  $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/StripDisplay.cxx,v 1.5 2003/07/26 22:15:01 lsrea Exp $
 */
 // Original Author: T. Burnett
 
@@ -120,8 +120,9 @@ private:
     SiDetMap m_SiMap;
 };
 
-static const ToolFactory<StripDisplay>  Factory;
-const IToolFactory& StripDisplayFactory = Factory;
+//static const ToolFactory<StripDisplay>  Factory;
+//const IToolFactory& StripDisplayFactory = Factory;
+DECLARE_TOOL_FACTORY(StripDisplay);
 
 StripDisplay::StripDisplay(const std::string& type, 
                            const std::string& name, 

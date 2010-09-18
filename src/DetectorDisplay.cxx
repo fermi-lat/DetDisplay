@@ -1,7 +1,7 @@
 /** @file DetectorDisplay.cxx
 @brief  Declare, implement class DetectorDisplay
 
-* $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/DetectorDisplay.cxx,v 1.5 2003/10/20 22:08:48 golpa Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/DetectorDisplay.cxx,v 1.6 2010/06/16 01:33:19 lsrea Exp $
 */
 
 // includes
@@ -29,7 +29,7 @@ namespace {
 * @class DetectorDisplay
 *
 * @brief  A Tool that sets up the detector display 
-* $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/DetectorDisplay.cxx,v 1.5 2003/10/20 22:08:48 golpa Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/DetectorDisplay.cxx,v 1.6 2010/06/16 01:33:19 lsrea Exp $
 */
 class DetectorDisplay : public AlgTool, virtual public IGuiTool 
 {
@@ -70,8 +70,9 @@ private:
 
 
 // declare the service factories for the DetectorDisplay
-static ToolFactory<DetectorDisplay> a_factory;
-const IToolFactory& DetectorDisplayFactory = a_factory;
+//static ToolFactory<DetectorDisplay> a_factory;
+//const IToolFactory& DetectorDisplayFactory = a_factory;
+DECLARE_TOOL_FACTORY(DetectorDisplay);
 
 /// Standard Constructor
 DetectorDisplay::DetectorDisplay(const std::string& type, 
