@@ -1,6 +1,6 @@
 /** @file MCdisplay.cxx 
      @brief Declatation, definition of class MCdisplay
-  $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/MCdisplay.cxx,v 1.3 2004/03/25 01:29:34 heather Exp $
+  $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/MCdisplay.cxx,v 1.4.594.1 2010/09/18 03:36:56 heather Exp $
 */
 
 // includes
@@ -51,7 +51,7 @@
 * @class MCdisplay
 *
 * @brief  A Tool that create a display of  Monte Carlo items on the TDS 
-* $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/MCdisplay.cxx,v 1.3 2004/03/25 01:29:34 heather Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/MCdisplay.cxx,v 1.4.594.1 2010/09/18 03:36:56 heather Exp $
 */
 class MCdisplay : public AlgTool, 
     virtual public IIncidentListener, 
@@ -153,8 +153,9 @@ private:
 
 
 // declare the service factories for the MCdisplay
-static ToolFactory<MCdisplay> a_factory;
-const IToolFactory& MCdisplayFactory = a_factory;
+//static ToolFactory<MCdisplay> a_factory;
+//const IToolFactory& MCdisplayFactory = a_factory;
+DECLARE_TOOL_FACTORY(MCdisplay);
 
 //____________________________________________________________________________
 ///       Standard Constructor
