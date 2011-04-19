@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Tue Apr 19 12:39:13 PDT 2011
+DetDisplay
+
+Modified Files:
+      Tag: GlastReleasev18r7p1
+	SConscript 
+Log Message:
+updates for Gaudi along branch
+    *
+------------------------------------------------------------
 TAG
 Tag name: DetDisplay-03-03-04, operation: add
 Package: DetDisplay
