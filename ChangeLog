@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri May 20 08:00:22 PDT 2011
+DetDisplay
+
+Modified Files:
+	SConscript 
+Log Message:
+CLHEP 2.1.0.1
+    *
+------------------------------------------------------------
 TAG
 Tag name: DetDisplay-03-03-03-gr02, operation: add
 Package: DetDisplay
