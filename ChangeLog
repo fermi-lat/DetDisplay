@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Mon Dec 12 12:46:36 PST 2011
+GlastRelease-scons/DetDisplay/src
+
+Modified Files:
+	DetectorDisplay.cxx MCdisplay.cxx StripDisplay.cxx 
+Log Message:
+merge Gaudi v21r7
+    *
+------------------------------------------------------------
+User: heather  Mon Dec 12 12:46:36 PST 2011
 GlastRelease-scons/DetDisplay/doc
 
 Modified Files:
