@@ -1,13 +1,4 @@
 ------------------------------------------------------------
-User: heather  Mon Dec 12 12:46:35 PST 2011
-GlastRelease-scons/DetDisplay
-
-Modified Files:
-	SConscript 
-Log Message:
-merge Gaudi v21r7
-    *
-------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-gr16, operation: add
 Package: DetDisplay
