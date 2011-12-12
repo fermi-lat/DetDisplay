@@ -1,7 +1,7 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/SConscript,v 1.10 2010/12/02 00:40:37 jrb Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/DetDisplay/SConscript,v 1.11 2011/05/20 15:00:22 heather Exp $
 # Authors: T. Burnett <tburnett@u.washington.edu>
-# Version: DetDisplay-03-03-05
+# Version: DetDisplay-03-04-00
 Import('baseEnv')
 Import('listFiles')
 Import('packages')
@@ -10,8 +10,8 @@ libEnv = baseEnv.Clone()
 
 libEnv.Tool('addLinkDeps', package='DetDisplay', toBuild='component')
 
-DetDisplay = libEnv.SharedLibrary('DetDisplay',
-				  listFiles(['src/*.cxx','src/Dll/*.cxx']))
+DetDisplay = libEnv.ComponentLibrary('DetDisplay',
+				  listFiles(['src/*.cxx']))
 
 progEnv.Tool('DetDisplayLib')
 progEnv.Tool('GuiSvcLib')
