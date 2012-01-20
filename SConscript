@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/DetDisplay/SConscript,v 1.11 2011/05/20 15:00:22 heather Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/DetDisplay/SConscript,v 1.12 2011/12/12 20:46:35 heather Exp $
 # Authors: T. Burnett <tburnett@u.washington.edu>
 # Version: DetDisplay-03-04-00
 Import('baseEnv')
@@ -16,13 +16,6 @@ DetDisplay = libEnv.ComponentLibrary('DetDisplay',
 progEnv.Tool('DetDisplayLib')
 progEnv.Tool('GuiSvcLib')
 progEnv.Tool('guiLib')
-
-if baseEnv['PLATFORM'] != 'win32':
-	progEnv.AppendUnique(LINKFLAGS=['-u GuiSvc_loadRef'])
-
-else:
-	progEnv.AppendUnique(LINKFLAGS=['/include:_GuiSvc_loadRef'])
-	progEnv.AppendUnique(LINKFLAGS=['/subsystem:windows'])  #from macro guiapp_linkopts in ../gui/cmt/requirements
 
 testDetDisplay = progEnv.GaudiProgram('TestDetDisplay', [], test=1,
 				      package='DetDisplay')
