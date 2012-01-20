@@ -1,11 +1,12 @@
 /** @file release.notes
  * @brief package DetDisplay
-   $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/DetDisplay/doc/release.notes,v 1.19 2011/05/20 15:00:22 heather Exp $
+   $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/doc/release.notes,v 1.20 2011/12/12 20:46:36 heather Exp $
 
 @verbatim
  * package manager:T.Burnett
  * EOH *
 
+ DetDisplay-03-04-01 20-Jan-2012    jrb SCons adjustment for GuiSvc component library
  DetDispaly-03-04-00 05-Dec-2011    hmk Merge in Gaudi v21r7
  DetDispaly-03-03-05 20-May-2011    hmk CLHEP 2.1.0.1
  DetDisplay-03-03-04 01-Dec-2010    jrb Make new main branch tag for SCons RM
