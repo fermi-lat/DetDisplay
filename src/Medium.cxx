@@ -1,11 +1,12 @@
 /** @file Medium.cxx
      @brief  implementation of class Medium
 
-   $Header:  $
+   $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/src/Medium.cxx,v 1.3 2012/01/17 16:52:03 cohen Exp $
 */
 
 #include "Medium.h"
 #include "geometry/Box.h"
+#include <cstring>
 
 //////////////////////////////////////////////////////////////////////////////
 
