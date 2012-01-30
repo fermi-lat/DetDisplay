@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Mon Jan 30 13:49:49 PST 2012
+DetDisplay
+
+Modified Files:
+      Tag: GlastRelease-17-35-24-br01
+	SConscript 
+Log Message:
+Gaudi v21r7
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-br02, operation: add
 Package: DetDisplay
