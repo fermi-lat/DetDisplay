@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Feb  2 09:44:53 PST 2012
+DetDisplay
+
+Modified Files:
+	SConscript 
+Log Message:
+get ready to tag and check on windows
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-gr21, operation: add
 Package: DetDisplay
