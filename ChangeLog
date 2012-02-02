@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Feb  2 09:48:06 PST 2012
+DetDisplay/src
+
+Added Files:
+	DetDisplaySvc.cxx DetDisplaySvc.h 
+Log Message:
+add in DetDisplaySvc
+    *
+------------------------------------------------------------
 User: heather  Thu Feb  2 09:44:54 PST 2012
 DetDisplay/doc
 
