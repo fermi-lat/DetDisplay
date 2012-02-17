@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: heather  Fri Feb 17 13:20:30 PST 2012
+DetDisplay/cmt
+
+Modified Files:
+      Tag: GlastRelease-17-35-24-br01
+	requirements 
+Log Message:
+add in handing of tools needing a way to be loaded
+    *
+------------------------------------------------------------
+User: heather  Fri Feb 17 13:20:30 PST 2012
 DetDisplay
 
 Modified Files:
