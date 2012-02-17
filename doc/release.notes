@@ -1,11 +1,12 @@
 /** @file release.notes
  * @brief package DetDisplay
-   $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/doc/release.notes,v 1.18 2010/12/02 00:40:37 jrb Exp $
+   $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/doc/release.notes,v 1.18.20.1 2012/01/30 21:49:49 heather Exp $
 
 @verbatim
  * package manager:T.Burnett
  * EOH *
 
+ DetDisplay-03-03-04-gr02 17-Feb-2012 hmk Try to get Event display working
  DetDisplay-03-03-04-gr01 30-Jan-2012 hmk Gaudi v21r7
  DetDisplay-03-03-04 01-Dec-2010    jrb Make new main branch tag for SCons RM
  DetDisplay-03-03-03 15-Jun-2010  lsrea Up max detail level from 7 to 9; default is still 2
