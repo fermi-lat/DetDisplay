@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Fri Feb 17 13:20:30 PST 2012
+DetDisplay
+
+Modified Files:
+      Tag: GlastRelease-17-35-24-br01
+	SConscript 
+Log Message:
+add in handing of tools needing a way to be loaded
+    *
+------------------------------------------------------------
 TAG
 Tag name: DetDisplay-03-05-00, operation: add
 Package: DetDisplay
