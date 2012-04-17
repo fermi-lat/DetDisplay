@@ -1,5 +1,17 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-17-35-24-rp05, operation: add
+Package: DetDisplay
+User: heather  Tue Apr 17 10:33:11 2012
+Files:
+  DetDisplay/.cvsignore  1.3
+  DetDisplay/DetDisplayLib.py  1.3
+  DetDisplay/ChangeLog  1.108
+  DetDisplay/SConscript  1.10
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-17-35-24-gr25, operation: add
 Package: DetDisplay
 User: heather  Mon Apr 16 13:42:20 2012
