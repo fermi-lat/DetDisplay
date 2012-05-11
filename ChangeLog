@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu May 10 21:47:45 PDT 2012
+DetDisplay
+
+Modified Files:
+	SConscript 
+Log Message:
+fix unit test
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-gr31, operation: add
 Package: DetDisplay
