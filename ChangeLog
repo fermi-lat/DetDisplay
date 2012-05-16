@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed May 16 08:53:52 PDT 2012
+DetDisplay
+
+Modified Files:
+	SConscript 
+Log Message:
+drop unit test in CMT builds for now
+    *
+------------------------------------------------------------
 TAG
 Tag name: DetDisplay-03-05-02, operation: add
 Package: DetDisplay
