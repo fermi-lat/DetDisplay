@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Wed May 16 08:53:52 PDT 2012
+DetDisplay/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+drop unit test in CMT builds for now
+    *
+------------------------------------------------------------
+User: heather  Wed May 16 08:53:52 PDT 2012
 DetDisplay
 
 Modified Files:
