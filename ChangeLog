@@ -2,6 +2,14 @@
 TAG
 Tag name: GlastRelease-17-35-24-lp39, operation: add
 Package: DetDisplay
+User: heather  Wed Oct 17 05:59:02 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp39, operation: add
+Package: DetDisplay
 User: heather  Wed Oct 17 05:48:51 2012
 Files:
   DetDisplay/.cvsignore  1.3
