@@ -1,5 +1,41 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-20-08-07, operation: add
+Package: DetDisplay
+User: heather  Mon Feb 11 07:50:54 2013
+Files:
+  DetDisplay/.cvsignore  1.3
+  DetDisplay/DetDisplayLib.py  1.4
+  DetDisplay/ChangeLog  1.270
+  DetDisplay/SConscript  1.19
+  DetDisplay/cmt/.cvsignore  1.1
+  DetDisplay/cmt/requirements  1.33
+  DetDisplay/cmt/Makefile  1.1.1.1
+  DetDisplay/doc/.cvsignore  1.1.1.1
+  DetDisplay/doc/release.notes  1.26
+  DetDisplay/src/DetDisplaySvc.cxx  1.1
+  DetDisplay/src/StripDisplay.cxx  1.7
+  DetDisplay/src/DetectorDisplay.cxx  1.7
+  DetDisplay/src/DisplayGeometry.h  1.4
+  DetDisplay/src/mainpage.h  1.2
+  DetDisplay/src/CompositeMedium.cxx  1.2
+  DetDisplay/src/World.cxx  1.2
+  DetDisplay/src/MCdisplay.cxx  1.6
+  DetDisplay/src/MaterialDisplay.cxx  1.2
+  DetDisplay/src/DisplayGeometry.cxx  1.4
+  DetDisplay/src/MaterialDisplay.h  1.1
+  DetDisplay/src/World.h  1.2
+  DetDisplay/src/DetDisplaySvc.h  1.1
+  DetDisplay/src/Medium.h  1.3
+  DetDisplay/src/CompositeMedium.h  1.2
+  DetDisplay/src/Medium.cxx  1.3
+  DetDisplay/src/Dll/DetDisplay_load.cxx  1.3
+  DetDisplay/src/Dll/DetDisplay_dll.cxx  1.3
+  DetDisplay/src/test/jobOptions.txt  1.3
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-20-08-06, operation: add
 Package: DetDisplay
 User: heather  Fri Feb  1 08:48:53 2013
