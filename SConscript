@@ -1,7 +1,7 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/SConscript,v 1.19 2012/08/20 18:55:46 jrb Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/DetDisplay/SConscript,v 1.20 2015/07/24 09:32:04 glastrm Exp $
 # Authors: T. Burnett <tburnett@u.washington.edu>
-# Version: DetDisplay-00-00-00
+# Version: DetDisplay-03-06-00
 Import('baseEnv')
 Import('listFiles')
 Import('packages')
